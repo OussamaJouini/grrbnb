@@ -105,7 +105,7 @@ input.price#max::after{
     background-color:var(--main-primary-cat);
     color: var(--main-secondary-grasses);
 }
-@media all and (min-width:650px){
+@media all and (min-width:800px){
     form{
         display: flex;
         flex-direction: row;
@@ -141,6 +141,24 @@ input.price#max::after{
         flex-wrap: nowrap;
         align-items: stretch;
         max-width: 1200px;
+    }
+    header{
+        flex-basis: 30%;
+        background-size: auto 100%;
+    }
+    form{
+        flex-basis: 70%;
+    }
+}
+
+
+@media all and (min-width:600px){
+    main{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: stretch;
+        max-width: 800px;
     }
     header{
         flex-basis: 30%;
